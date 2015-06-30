@@ -14,6 +14,7 @@
 		37D5A17D1B42819B00C69EA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D5A17C1B42819B00C69EA9 /* Images.xcassets */; };
 		37D5A1801B42819C00C69EA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D5A17E1B42819C00C69EA9 /* LaunchScreen.xib */; };
 		37D5A18C1B42819C00C69EA9 /* gitxcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5A18B1B42819C00C69EA9 /* gitxcodeTests.m */; };
+		37D5A1971B4289AC00C69EA9 /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5A1961B4289AC00C69EA9 /* newViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		37D5A1851B42819C00C69EA9 /* gitxcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitxcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D5A18A1B42819C00C69EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D5A18B1B42819C00C69EA9 /* gitxcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitxcodeTests.m; sourceTree = "<group>"; };
+		37D5A1951B4289AC00C69EA9 /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		37D5A1961B4289AC00C69EA9 /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		37D5A1631B42819A00C69EA9 = {
 			isa = PBXGroup;
 			children = (
+				37D5A1951B4289AC00C69EA9 /* newViewController.h */,
+				37D5A1961B4289AC00C69EA9 /* newViewController.m */,
 				37D5A16E1B42819B00C69EA9 /* gitxcode */,
 				37D5A1881B42819C00C69EA9 /* gitxcodeTests */,
 				37D5A16D1B42819B00C69EA9 /* Products */,
@@ -222,6 +227,7 @@
 				37D5A1781B42819B00C69EA9 /* ViewController.m in Sources */,
 				37D5A1751B42819B00C69EA9 /* AppDelegate.m in Sources */,
 				37D5A1721B42819B00C69EA9 /* main.m in Sources */,
+				37D5A1971B4289AC00C69EA9 /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				37D5A1911B42819C00C69EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D5A1921B42819C00C69EA9 /* Build configuration list for PBXNativeTarget "gitxcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				37D5A1941B42819C00C69EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

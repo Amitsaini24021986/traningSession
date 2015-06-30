@@ -11,5 +11,6 @@
 @interface newViewController : UIViewController
 {
     NSString *changeMadeStr;
+    NSString *newBranch;
 }
 @end

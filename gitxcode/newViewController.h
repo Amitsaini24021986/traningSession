@@ -12,5 +12,7 @@
 {
     NSString *changeMadeStr;
     NSString *newBranch;
+    NSString *testingBranch;
+
 }
 @end
